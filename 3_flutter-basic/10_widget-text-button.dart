@@ -32,7 +32,8 @@ class MyApp extends StatelessWidget {
                 },
                 child: Text('Print Input Value'),
                 style: ButtonStyle(
-                  backgroundColor: WidgetStateProperty.all<Color>(Colors.blue),
+                  backgroundColor:
+                      MaterialStateProperty.all<Color>(Colors.blue),
                 ),
               ),
             ],
