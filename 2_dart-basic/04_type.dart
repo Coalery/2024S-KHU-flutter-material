@@ -1,33 +1,33 @@
 void main() {
   // String
   String name = 'Dart';
-  print(name);
+  print(name); // Dart
 
   // int
-  int age = -1 >>> 1;
-  print(age);
+  int age = 1;
+  print(age); // 1
 
   // double
   double pi = 3.14;
-  print(pi);
+  print(pi); // 3.14
 
   // bool
   bool isTrue = true;
-  print(isTrue);
+  print(isTrue); // true
 
   // List
   List<String> names = ['Dart', 'Flutter', 'Java', 'Kotlin'];
-  print(names);
+  print(names); // ['Dart', 'Flutter', 'Java', 'Kotlin']
 
   // Map
   Map<String, String> person = {'name': 'Dart', 'age': '25', 'city': 'Jakarta'};
-  print(person);
+  print(person); // {'name': 'Dart', 'age': '25', 'city': 'Jakarta'}
 
   // var
   var hello = 'Hello, Dart!';
-  print(hello);
+  print(hello); // Hello, Dart!
 
   // dynamic
   dynamic dynamicVar = 'Hello, Dart!';
-  print(dynamicVar);
+  print(dynamicVar); // Hello, Dart!
 }

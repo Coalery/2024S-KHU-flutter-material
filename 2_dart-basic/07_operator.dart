@@ -4,7 +4,9 @@ void main() {
   double result = a / b;
   print(result); // 2.5
 
-  int result2 = a ~/ b;
+  double a2 = 10.1;
+  double b2 = 4.2;
+  int result2 = a2 ~/ b2;
   print(result2); // 2
 
   String? name = null;
@@ -18,5 +20,5 @@ void main() {
 
   String hello2 = 'Hello, $name2, ${name2.length}';
   // 변수 하나면 중괄호 생략 가능. `.`으로 체이닝되면 중괄호 필수
-  print(hello2); // Hello, Dart
+  print(hello2); // Hello, Dart, 4
 }
