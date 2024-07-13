@@ -36,6 +36,7 @@ class Truck extends Car {
   void load(int additionalLoad) {
     if (currentLoad + additionalLoad > maxLoad) {
       print('짐이 너무 많아 더 실을 수 없어요.');
+      return;
     }
 
     currentLoad += additionalLoad;

@@ -21,7 +21,7 @@ class Car {
   }
 
   void honk() {
-    print('$currentSpeed 속도로 달리는 $color 색깔 자동차가 경적을 울립니다.');
+    print('$currentSpeed 속도로 달리는 $color 색깔 자동차가 경적을 빵빵 울립니다.');
   }
 }
 
@@ -51,12 +51,13 @@ class Truck {
   }
 
   void honk() {
-    print('$currentSpeed 속도로 달리는 $color 색깔 자동차가 경적을 울립니다.');
+    print('$currentSpeed 속도로 달리는 $color 색깔 자동차가 경적을 빵빵 울립니다.');
   }
 
   void load(int additionalLoad) {
     if (currentLoad + additionalLoad > maxLoad) {
       print('짐이 너무 많아 더 실을 수 없어요.');
+      return;
     }
 
     currentLoad += additionalLoad;
@@ -92,7 +93,7 @@ class ElectricCar {
   }
 
   void honk() {
-    print('$currentSpeed 속도로 달리는 $color 색깔 자동차가 경적을 울립니다.');
+    print('$currentSpeed 속도로 달리는 $color 색깔 자동차가 경적을 빵빵 울립니다.');
   }
 
   void charge() {
